@@ -1,10 +1,15 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
 }
 
 [epub|type~="epigraph"] cite{
@@ -13,7 +18,45 @@
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:verse"]{
+[epub|type~="epigraph"] cite i{
 	font-style: italic;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
+/* If eliding within an epigraph, include this additional style: */
+[epub|type~="epigraph"] span.elision{
+	font-style: normal;
+}
+
+[epub|type~="z3998:verse"]{
 	text-align: center;
 }
