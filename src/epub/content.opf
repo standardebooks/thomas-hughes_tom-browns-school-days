@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-hughes/tom-browns-school-days</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-01-27T17:36:49Z</dc:date>
+		<meta property="dcterms:modified">2025-01-27T17:36:49Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -49,17 +49,17 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">A boy’s journey through Rugby School in 19th-century England, emphasizing his moral growth, friendships, and the impact of headmaster Dr. Thomas Arnold’s educational reforms on fostering integrity and camaraderie.</dc:description>
+		<dc:description id="description">A boy attends Rugby School in 19th-century England, highlighting the impact Dr. Thomas Arnold’s educational reforms had on fostering integrity and camaraderie.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Published in 1857, &lt;i&gt;Tom Brown’s School Days&lt;/i&gt; is a seminal novel of Victorian literature that immerses readers in the turbulent world of 19th-century English boarding schools. The novel follows Tom Brown, a spirited and good-hearted boy from the countryside, as he navigates life at Rugby School, an institution renowned for its strict traditions and emphasis on character-building. Through Tom’s eyes, the story explores the challenges of adolescence—bullying, loyalty, and moral growth—against the backdrop of a school culture defined by the reforming influence of its real-life headmaster, Dr. Thomas Arnold.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-hughes"&gt;Thomas Hughes&lt;/a&gt;, a lawyer and social reformer, drew deeply from his own experiences as a Rugby student under &lt;abbr&gt;Dr.&lt;/abbr&gt; Arnold, whose progressive methods aimed to cultivate both intellectual rigor and moral fortitude in his pupils. Its portrayal of school life—with its cricket matches, chapel services, and clashes between bullies and underdogs—captured the Victorian imagination.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Tom Brown’s School Days&lt;/i&gt; is a seminal novel of Victorian literature that immerses readers in the turbulent world of 19th-century English boarding schools. The novel follows Tom Brown, a spirited and good-hearted boy from the countryside, as he navigates life at Rugby School, an institution renowned for its strict traditions and emphasis on character-building. Through Tom’s eyes, the story explores the challenges of adolescence—bullying, loyalty, and moral growth—against the backdrop of a school culture defined by the reforming influence of its real-life headmaster, &lt;a href="https://standardebooks.org/ebooks/lytton-strachey/eminent-victorians"&gt;Dr. Thomas Arnold&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-hughes"&gt;Thomas Hughes&lt;/a&gt;, a lawyer and social reformer, drew deeply from his own experiences as a Rugby student under Dr. Arnold, whose progressive methods aimed to cultivate both intellectual rigor and moral fortitude in his pupils. The novel’s portrayal of school life—with its cricket matches, chapel services, and clashes between bullies and underdogs—captured the Victorian imagination.&lt;/p&gt;
 			&lt;p&gt;Hughes’ work became an instant classic, praised for its authenticity and moral earnestness. Beyond its literary legacy, the novel reflects the era’s ideals of masculinity, duty, and social reform, offering insight into how Victorian society sought to prepare young men for leadership in an expanding empire.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1480</dc:source>
 		<dc:source>https://archive.org/details/tombrownsschoold00hugh_1</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">107779</meta>
+		<meta property="se:reading-ease.flesch">72.7</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tom_Brown%27s_School_Days</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-hughes_tom-browns-school-days</meta>
 		<dc:creator id="author">Thomas Hughes</dc:creator>
@@ -93,6 +93,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
