@@ -43,11 +43,6 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
 span.elision{
 	margin: .5em;
 	margin-left: 3em;
@@ -56,10 +51,6 @@ span.elision{
 /* If eliding within an epigraph, include this additional style: */
 [epub|type~="epigraph"] span.elision{
 	font-style: normal;
-}
-
-[epub|type~="z3998:verse"]{
-	text-align: center;
 }
 
 figure{
@@ -77,4 +68,24 @@ figure img{
 figure.full-page{
 	break-after: page;
 	break-before: page;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
 }
