@@ -58,7 +58,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1480</dc:source>
 		<dc:source>https://archive.org/details/tombrownsschoold00hugh_1</dc:source>
-		<meta property="se:word-count">107779</meta>
+		<meta property="se:word-count">105560</meta>
 		<meta property="se:reading-ease.flesch">72.7</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tom_Brown%27s_School_Days</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-hughes_tom-browns-school-days</meta>
