@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="content.opf">
-		<ignore>
-			<code>m-064</code>
+		<ignore code="m-064">
 			<reason>Match is using a subject of the book as the link anchor, not the book title.</reason>
 		</ignore>
 	</file>
