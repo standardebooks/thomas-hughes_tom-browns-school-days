@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-hughes/tom-browns-school-days</dc:identifier>
 		<dc:date>2025-01-27T17:36:49Z</dc:date>
@@ -50,12 +50,12 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A boy attends Rugby School in 19th-century England, highlighting the impact Dr. Thomas Arnold’s educational reforms had on fostering integrity and camaraderie.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A boy attends Rugby School in 19th-century England, highlighting the impact Dr. Thomas Arnold’s educational reforms had on fostering integrity and camaraderie.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Tom Brown’s School Days&lt;/i&gt; is a seminal novel of Victorian literature that immerses readers in the turbulent world of 19th-century English boarding schools. The novel follows Tom Brown, a spirited and good-hearted boy from the countryside, as he navigates life at Rugby School, an institution renowned for its strict traditions and emphasis on character-building. Through Tom’s eyes, the story explores the challenges of adolescence—bullying, loyalty, and moral growth—against the backdrop of a school culture defined by the reforming influence of its real-life headmaster, &lt;a href="https://standardebooks.org/ebooks/lytton-strachey/eminent-victorians"&gt;Dr. Thomas Arnold&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-hughes"&gt;Thomas Hughes&lt;/a&gt;, a lawyer and social reformer, drew deeply from his own experiences as a Rugby student under Dr. Arnold, whose progressive methods aimed to cultivate both intellectual rigor and moral fortitude in his pupils. The novel’s portrayal of school life—with its cricket matches, chapel services, and clashes between bullies and underdogs—captured the Victorian imagination.&lt;/p&gt;
 			&lt;p&gt;Hughes’ work became an instant classic, praised for its authenticity and moral earnestness. Beyond its literary legacy, the novel reflects the era’s ideals of masculinity, duty, and social reform, offering insight into how Victorian society sought to prepare young men for leadership in an expanding empire.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1480</dc:source>
 		<dc:source>https://archive.org/details/tombrownsschoold00hugh_1</dc:source>
